@@ -6,7 +6,7 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-        tage('test') {
+        stage('test') {
             steps {
                 sh 'mvn --version'
             }
