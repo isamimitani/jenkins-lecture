@@ -6,5 +6,10 @@ pipeline {
                 sh 'mvn --version'
             }
         }
+        tage('test') {
+            steps {
+                sh 'mvn --version'
+            }
+        }
     }
 }
